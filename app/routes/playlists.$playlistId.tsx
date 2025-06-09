@@ -31,11 +31,25 @@ clientLoader.hydrate = true;
 
 type LoaderData = Awaited<ReturnType<typeof loader>>;
 
-export function meta({ data }: { data: LoaderData }) {
+export function meta({
+  data,
+  params,
+}: {
+  data: LoaderData;
+  params: Route.MetaArgs['params'];
+}) {
   const playlist = data?.playlist;
-  const title = playlist?.name ? `${playlist.name} | Music Life` : 'Music Life';
-  const description = playlist?.songs?.[0]?.title
-    ? `Now playing: ${playlist.songs[0].title} — ${playlist.name}`
+  const songIdx = Number(params.songIdx) || 0;
+  const currentSong = playlist?.songs?.[songIdx];
+
+  const title = currentSong?.title
+    ? `${currentSong.title} - ${playlist?.name} | Music Life`
+    : playlist?.name
+    ? `${playlist.name} | Music Life`
+    : 'Music Life';
+
+  const description = currentSong?.title
+    ? `Now playing: ${currentSong.title} — ${playlist?.name}`
     : 'Welcome to Music Life!';
 
   return [{ title }, { name: 'description', content: description }];
@@ -104,6 +118,14 @@ export default function PlaylistDetail({ loaderData }: Route.ComponentProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSongIndex, playlistId]);
 
+  // Update document title when song changes
+  useEffect(() => {
+    if (playlist?.songs?.[currentSongIndex]) {
+      const currentSong = playlist.songs[currentSongIndex];
+      document.title = `${currentSong.title} - ${playlist.name} | Music Life`;
+    }
+  }, [currentSongIndex, playlist]);
+
   const handlePlay = () => setPlaying(true);
   const handlePause = () => setPlaying(false);
   const handleStop = () => setPlaying(false);
@@ -136,21 +158,21 @@ export default function PlaylistDetail({ loaderData }: Route.ComponentProps) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[80vh] w-full mx-auto px-4">
+    <div className="flex flex-col items-center justify-center min-h-[80vh] w-full mx-auto px-4 py-4">
       <PlaylistSwitcher />
-      <div className="flex flex-row gap-8 w-full max-w-5xl md:gap-5 md:items-center">
+      <div className="flex flex-col lg:flex-row gap-8 w-full max-w-5xl lg:gap-6 items-start">
         {/* Main video */}
-        <div className="flex-1 min-w-0">
+        <div className="w-full lg:flex-1 min-w-0">
           <SongPlayer
             song={playlist.songs[currentSongIndex]}
             onEnded={handleEnded}
             playing={playing}
           />
-          <div className="mt-4 font-medium text-lg text-center">
+          <div className="mt-4 font-medium text-lg md:text-xl text-center px-2 line-clamp-2">
             {playlist.songs[currentSongIndex].title}
           </div>
           {/* Playback Controls */}
-          <div className="flex justify-center items-center gap-4 mt-4">
+          <div className="flex justify-center items-center gap-3 sm:gap-4 mt-4 mb-6 lg:mb-0">
             <button
               className="bg-gray-200 hover:bg-gray-300 rounded-full p-2 disabled:opacity-50"
               onClick={handlePrev}
@@ -226,14 +248,14 @@ export default function PlaylistDetail({ loaderData }: Route.ComponentProps) {
         {/* Playlist list */}
         <ul
           ref={listRef}
-          className="flex-1 max-h-[430px] overflow-y-auto bg-gray-50 rounded-lg shadow-md p-0 m-0 w-80 md:w-full md:max-w-full border border-gray-200 list-none"
+          className="w-full lg:flex-1 max-h-[300px] lg:max-h-[430px] overflow-y-auto bg-gray-50 rounded-lg shadow-md p-0 m-0 border border-gray-200 list-none"
         >
           {playlist.songs.map((song, idx) => (
             <li
               key={song.id}
               id={`song-${idx}`}
               className={[
-                'px-4 py-3 flex items-center cursor-pointer transition-colors',
+                'px-3 sm:px-4 py-2 sm:py-3 flex items-center cursor-pointer transition-colors',
                 idx === currentSongIndex
                   ? 'bg-blue-50 border-l-4 border-blue-500 font-semibold'
                   : 'border-l-4 border-transparent hover:bg-gray-100',
@@ -244,9 +266,11 @@ export default function PlaylistDetail({ loaderData }: Route.ComponentProps) {
                 setPlaying(true);
               }}
             >
-              <span className="flex-1 truncate">{song.title}</span>
+              <span className="flex-1 truncate text-sm sm:text-base">
+                {song.title}
+              </span>
               {idx === currentSongIndex && (
-                <span className="text-blue-500 ml-2">▶</span>
+                <span className="text-blue-500 ml-2 flex-shrink-0">▶</span>
               )}
             </li>
           ))}
