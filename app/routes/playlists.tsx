@@ -1,5 +1,13 @@
+import type { Route } from '../+types/root';
 import { playlists } from '../data/playlists';
 import { Link } from 'react-router';
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: 'Music Life' },
+    { name: 'description', content: 'Welcome to Music Life!' },
+  ];
+}
 
 export default function PlaylistsList() {
   return (
@@ -20,7 +28,8 @@ export default function PlaylistsList() {
                 {playlist.songs[0]?.title || 'No songs'}
               </div>
               <div className="mt-2 text-xs text-gray-400">
-                {playlist.songs.length} song{playlist.songs.length !== 1 ? 's' : ''}
+                {playlist.songs.length} song
+                {playlist.songs.length !== 1 ? 's' : ''}
               </div>
             </div>
           </Link>

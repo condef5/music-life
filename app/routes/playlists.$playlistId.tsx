@@ -1,28 +1,46 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router';
-import type { Route } from '../+types/root';
+import type { Route } from './+types/playlists.$playlistId';
 import { playlists } from '../data/playlists';
 import { SongPlayer } from '~/components/song-player';
 import { PlaylistSwitcher } from '~/components/playlist-switcher';
 
-// This loads on the client only
-export async function clientLoader({
-  request,
-  params,
-}: Route.ClientLoaderArgs) {
+// Server-side loader for meta
+export async function loader({ params }: Route.LoaderArgs) {
   const { playlistId } = params;
   const playlist = playlists.find((p) => p.id === playlistId);
 
+  return { playlist };
+}
+
+// Client-side loader (this will merge with server data)
+export async function clientLoader({
+  request,
+  params,
+  serverLoader,
+}: Route.ClientLoaderArgs) {
+  const serverData = await serverLoader();
+
   return {
-    playlist,
+    ...serverData,
     isClientReady: true,
   };
 }
 
-// This tells React Router to show the fallback during SSR
 clientLoader.hydrate = true;
 
-// Fallback component shown during SSR
+type LoaderData = Awaited<ReturnType<typeof loader>>;
+
+export function meta({ data }: { data: LoaderData }) {
+  const playlist = data?.playlist;
+  const title = playlist?.name ? `${playlist.name} | Music Life` : 'Music Life';
+  const description = playlist?.songs?.[0]?.title
+    ? `Now playing: ${playlist.songs[0].title} — ${playlist.name}`
+    : 'Welcome to Music Life!';
+
+  return [{ title }, { name: 'description', content: description }];
+}
+
 export function HydrateFallback() {
   const { playlistId } = useParams();
   const playlist = playlists.find((p) => p.id === playlistId);
@@ -70,14 +88,18 @@ export default function PlaylistDetail({ loaderData }: Route.ComponentProps) {
   const { playlist } = loaderData;
   const { songIdx, playlistId } = useParams();
   const navigate = useNavigate();
-  const [currentSongIndex, setCurrentSongIndex] = useState(Number(songIdx) || 0);
+  const [currentSongIndex, setCurrentSongIndex] = useState(
+    Number(songIdx) || 0
+  );
   const [playing, setPlaying] = useState(true);
   const listRef = useRef<HTMLUListElement>(null);
 
   // Keep URL in sync when song changes
   useEffect(() => {
     if (Number(songIdx) !== currentSongIndex) {
-      navigate(`/playlists/${playlistId}/${currentSongIndex}`, { replace: true });
+      navigate(`/playlists/${playlistId}/${currentSongIndex}`, {
+        replace: true,
+      });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSongIndex, playlistId]);
