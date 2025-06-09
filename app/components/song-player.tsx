@@ -4,15 +4,19 @@ import type { Song } from '../models/playlist';
 export function SongPlayer({
   song,
   onEnded,
+  playing = true,
 }: {
   song: Song;
   onEnded?: () => void;
+  playing?: boolean;
 }) {
   return (
-    <div style={{ maxWidth: 560 }}>
+    <div className="max-w-xl">
       <ReactPlayer
+        fallback={<div className="h-[315px] bg-gray-200 animate-pulse rounded" />}
         url={song.url}
         controls
+        playing={playing}
         width="100%"
         height="315px"
         config={{
@@ -20,7 +24,6 @@ export function SongPlayer({
         }}
         onEnded={onEnded}
       />
-      <div style={{ marginTop: 8, textAlign: 'center' }}>{song.title}</div>
     </div>
   );
 }
