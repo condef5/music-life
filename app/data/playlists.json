@@ -1,0 +1,662 @@
+[
+  {
+    "id": "1",
+    "name": "Playlist 1",
+    "songs": [
+      {
+        "id": "1",
+        "title": "Bleach opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/dfh4JuzYNpM"
+      },
+      {
+        "id": "2",
+        "title": "Asian Kung-fu Generation",
+        "source": "youtube",
+        "url": "https://youtu.be/a8oDEY4yoR4"
+      },
+      {
+        "id": "3",
+        "title": "Samurai Champloo – ending 1",
+        "source": "youtube",
+        "url": "https://youtu.be/mQAfG3DgG7M"
+      },
+      {
+        "id": "4",
+        "title": "Plastic Love",
+        "source": "youtube",
+        "url": "https://youtu.be/9Gj47G2e1Jc"
+      },
+      {
+        "id": "5",
+        "title": "Blue - Cowboy bebop",
+        "source": "youtube",
+        "url": "https://youtu.be/2YDhu0fDlis"
+      },
+      {
+        "id": "6",
+        "title": "Berserk first openign - Penpals",
+        "source": "youtube",
+        "url": "https://youtu.be/LkNU7AhibFM"
+      },
+      {
+        "id": "7",
+        "title": "Inuyasha Ending 5 - Shinjitsu no uta",
+        "source": "youtube",
+        "url": "https://youtu.be/kN0XSSdya4w"
+      },
+      {
+        "id": "8",
+        "title": "Naruto opening 2",
+        "source": "youtube",
+        "url": "https://youtu.be/SRn99oN1p_c"
+      },
+      {
+        "id": "9",
+        "title": "Full Metal Alchemist Opening 4 [Rewrite]",
+        "source": "youtube",
+        "url": "https://youtu.be/oPg1J79sgkQ"
+      },
+      {
+        "id": "10",
+        "title": "Libera Me From Hell",
+        "source": "youtube",
+        "url": "https://youtu.be/VT6LFOIofRE"
+      },
+      {
+        "id": "11",
+        "title": "Kiba Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/kVxc7lhKjW4"
+      },
+      {
+        "id": "12",
+        "title": "Attack on Titan - The Reluctant Heroes",
+        "source": "youtube",
+        "url": "https://youtu.be/eFah8TCWOro"
+      },
+      {
+        "id": "13",
+        "title": "Attack on Titan - 'Call Your Name'",
+        "source": "youtube",
+        "url": "https://youtu.be/pFoc5XKkIIw"
+      },
+      {
+        "id": "14",
+        "title": "Vinland saga OP 1",
+        "source": "youtube",
+        "url": "https://youtu.be/7U7BDn-gU18"
+      },
+      {
+        "id": "15",
+        "title": "I've Always Known | Mob Psycho 100 II",
+        "source": "youtube",
+        "url": "https://youtu.be/VWR_hTC4A98"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Playlist 2",
+    "songs": [
+      {
+        "id": "16",
+        "title": "Blood+ Opening 2",
+        "source": "youtube",
+        "url": "https://youtu.be/FWDrc1nIKlA"
+      },
+      {
+        "id": "17",
+        "title": "Gangsta Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/cXb7M2DQiEk"
+      },
+      {
+        "id": "18",
+        "title": "GANGSTA「AMV」- Everything Black",
+        "source": "youtube",
+        "url": "https://youtu.be/qGMwSqQvEWk"
+      },
+      {
+        "id": "19",
+        "title": "Parasyte Opening",
+        "source": "youtube",
+        "url": "https://youtu.be/Rm8UjBAS3cs"
+      },
+      {
+        "id": "20",
+        "title": "Blue Exorcist; Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/9m3qAlI_29I"
+      },
+      {
+        "id": "21",
+        "title": "Bleach - Opening 3 | Ichirin no Hana",
+        "source": "youtube",
+        "url": "https://youtu.be/2edBgIH7y68"
+      },
+      {
+        "id": "22",
+        "title": "tokyo ghoul opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/uMeR2W19wT0"
+      },
+      {
+        "id": "23",
+        "title": "Bleach - Opening 15 | Harukaze",
+        "source": "youtube",
+        "url": "https://youtu.be/E-ejE--Q3UE"
+      },
+      {
+        "id": "24",
+        "title": "Ajin opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/TbAhjyUwH6Q"
+      },
+      {
+        "id": "25",
+        "title": "91 days opening",
+        "source": "youtube",
+        "url": "https://youtu.be/Czj0m3vZhBY"
+      },
+      {
+        "id": "26",
+        "title": "DARLING in the FRANXX",
+        "source": "youtube",
+        "url": "https://youtu.be/hCzkkHwR2gg"
+      },
+      {
+        "id": "27",
+        "title": "Nevereverland - Nano",
+        "source": "youtube",
+        "url": "https://youtu.be/Hx_nMs-sjZg"
+      },
+      {
+        "id": "28",
+        "title": "jujutsu kaisen opening amv",
+        "source": "youtube",
+        "url": "https://youtu.be/1tk1pqwrOys"
+      },
+      {
+        "id": "29",
+        "title": "Gantz Amv - Bonnie Pink - Last Kiss",
+        "source": "youtube",
+        "url": "https://youtu.be/sc0KHGDH8L8"
+      },
+      {
+        "id": "30",
+        "title": "Full metal alchemist opening 2",
+        "source": "youtube",
+        "url": "https://youtu.be/SnHROjvhZew"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Playlist 3",
+    "songs": [
+      {
+        "id": "31",
+        "title": "Slam Dunk op latino",
+        "source": "youtube",
+        "url": "https://youtu.be/euW71JOlKy0"
+      },
+      {
+        "id": "32",
+        "title": "Naruto Shippuden Opening 6",
+        "source": "youtube",
+        "url": "https://youtu.be/SavhHnWla6c"
+      },
+      {
+        "id": "33",
+        "title": "My Hero Academia opening 2",
+        "source": "youtube",
+        "url": "https://youtu.be/oTNYCBWO42c"
+      },
+      {
+        "id": "34",
+        "title": "Soul Eater – Opening Theme 2 – Papermoon",
+        "source": "youtube",
+        "url": "https://youtu.be/-eYK3YP524A"
+      },
+      {
+        "id": "35",
+        "title": "Psycho-Pass Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/WWBDuVCuiUQ"
+      },
+      {
+        "id": "36",
+        "title": "Ergo Proxy OP Full HD (Kiri - MONORAL)",
+        "source": "youtube",
+        "url": "https://youtu.be/2ZN-zAKIfyQ"
+      },
+      {
+        "id": "37",
+        "title": "\"Kawaki wo Ameku (カワキヲアメク)\" by Minami | Domestic Girlfriend",
+        "source": "youtube",
+        "url": "https://youtu.be/Ua5UARWRYLA"
+      },
+      {
+        "id": "38",
+        "title": "Gintama - Ending 17 | Samurai Heart",
+        "source": "youtube",
+        "url": "https://youtu.be/v0cAJ1Cg8E8"
+      },
+      {
+        "id": "39",
+        "title": "Naruto Ending 1 | Wind (HD)",
+        "source": "youtube",
+        "url": "https://youtu.be/Oyhpwyrq1N0"
+      },
+      {
+        "id": "40",
+        "title": "eery - Her",
+        "source": "youtube",
+        "url": "https://youtu.be/Ivrrt6oYxxc?list=LL"
+      },
+      {
+        "id": "41",
+        "title": "Opening 2 Fate Stay Night [UBW] Aimer",
+        "source": "youtube",
+        "url": "https://youtu.be/WofLTwSi0uo"
+      },
+      {
+        "id": "42",
+        "title": "Rent-a-Girlfriend - Opening | Centimeter",
+        "source": "youtube",
+        "url": "https://youtu.be/cM1WSovcn4I"
+      },
+      {
+        "id": "43",
+        "title": "Kemurikusa Opening",
+        "source": "youtube",
+        "url": "https://youtu.be/diqmC7AfEzk?list=LL"
+      },
+      {
+        "id": "44",
+        "title": "[Chillstep] Sappheiros - Embrace",
+        "source": "youtube",
+        "url": "https://youtu.be/62uvW_lzNuc"
+      },
+      {
+        "id": "45",
+        "title": "Bleach - Ending 10 | Sakura Biyori",
+        "source": "youtube",
+        "url": "https://youtu.be/RKaL146I-TE"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Playlist 4",
+    "songs": [
+      {
+        "id": "46",
+        "title": "Rotti - Solanin",
+        "source": "youtube",
+        "url": "https://youtu.be/wP3WF94lwSs"
+      },
+      {
+        "id": "47",
+        "title": "Bleach - Opening 9 | Velonica",
+        "source": "youtube",
+        "url": "https://youtu.be/7O87OdsVOIE"
+      },
+      {
+        "id": "48",
+        "title": "Bleach - Opening 8 | Chu-Bura",
+        "source": "youtube",
+        "url": "https://youtu.be/wKMybibgt6Q"
+      },
+      {
+        "id": "49",
+        "title": "ハイブリッドレインボウ／the pillows",
+        "source": "youtube",
+        "url": "https://youtu.be/6BDW1V_P5sA"
+      },
+      {
+        "id": "50",
+        "title": "Inuyashiki OP - My Hero",
+        "source": "youtube",
+        "url": "https://youtu.be/AFnF2E6nJDw"
+      },
+      {
+        "id": "51",
+        "title": "b the beginning ending/opening",
+        "source": "youtube",
+        "url": "https://youtu.be/HwSZBbYiQ-o"
+      },
+      {
+        "id": "52",
+        "title": "Naruto Opening 5 | Seishun Kyousoukyoku",
+        "source": "youtube",
+        "url": "https://youtu.be/lilv4MvBY6E"
+      },
+      {
+        "id": "53",
+        "title": "kudasai - the girl i haven't met",
+        "source": "youtube",
+        "url": "https://youtu.be/XDpoBc8t6gE"
+      },
+      {
+        "id": "54",
+        "title": "Mushishi AMV - Shiver(Lucy Rose)",
+        "source": "youtube",
+        "url": "https://youtu.be/UlrhACu5bxQ"
+      },
+      {
+        "id": "55",
+        "title": "Opening 2 Psycho Pass Nothings",
+        "source": "youtube",
+        "url": "https://youtu.be/9StfX1p9LuY"
+      },
+      {
+        "id": "56",
+        "title": "Banana Fish : Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/7XtilO0l8L4"
+      },
+      {
+        "id": "57",
+        "title": "Ending 1 Dr. Stone",
+        "source": "youtube",
+        "url": "https://youtu.be/aATPWZ-FpJ8"
+      },
+      {
+        "id": "58",
+        "title": "Fire Force – Opening Theme – Inferno",
+        "source": "youtube",
+        "url": "https://youtu.be/JBqxVX_LXvk"
+      },
+      {
+        "id": "59",
+        "title": "Answer is Near Sub Español S.A.O AMV",
+        "source": "youtube",
+        "url": "https://youtu.be/B7lOojsJ8Ts"
+      },
+      {
+        "id": "60",
+        "title": "Naruto Shippuden Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/vxvP9zSOL7s"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Playlist 5",
+    "songs": [
+      {
+        "id": "61",
+        "title": "Fairy tail op 1; Snow fairy (Sub español)",
+        "source": "youtube",
+        "url": "https://youtu.be/QOJxhxiM0eQ"
+      },
+      {
+        "id": "62",
+        "title": "Abnormalize",
+        "source": "youtube",
+        "url": "https://youtu.be/TaBc7jc-bF8"
+      },
+      {
+        "id": "63",
+        "title": "Durarara!! Opening 2",
+        "source": "youtube",
+        "url": "https://youtu.be/PGoHzoZ2OI0"
+      },
+      {
+        "id": "64",
+        "title": "Bob Lennon (gutalala sudalala)",
+        "source": "youtube",
+        "url": "https://youtu.be/lQCp8yFbSrI"
+      },
+      {
+        "id": "65",
+        "title": "Code Geass R2 Textless Opening 2",
+        "source": "youtube",
+        "url": "https://youtu.be/osKkMKolWQ8"
+      },
+      {
+        "id": "66",
+        "title": "Mob Psycho 100 - Opening | 99",
+        "source": "youtube",
+        "url": "https://youtu.be/Bw-5Lka7gPE"
+      },
+      {
+        "id": "67",
+        "title": "Fate Zero opening 1 full",
+        "source": "youtube",
+        "url": "https://youtu.be/Rol_148PqjI"
+      },
+      {
+        "id": "68",
+        "title": "Code Geass Opening 2 HD",
+        "source": "youtube",
+        "url": "https://youtu.be/YBhsDtFUgdM"
+      },
+      {
+        "id": "69",
+        "title": "Code Geass R2 Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/AgWI4EQ78ik"
+      },
+      {
+        "id": "70",
+        "title": "ASIAN KUNG-FU GENERATION - Blue Train",
+        "source": "youtube",
+        "url": "https://youtu.be/x9nkiTeuYRo"
+      },
+      {
+        "id": "71",
+        "title": "Whatever happens, happens... // Verzache",
+        "source": "youtube",
+        "url": "https://youtu.be/yDETVPFdbT4"
+      },
+      {
+        "id": "72",
+        "title": "Dr. STONE - Ending Full『LIFE』",
+        "source": "youtube",
+        "url": "https://youtu.be/KQj0eXtsObU"
+      },
+      {
+        "id": "73",
+        "title": "The Pillows - White Summer And Green Bicycle",
+        "source": "youtube",
+        "url": "https://youtu.be/O9SBIdzQZes"
+      },
+      {
+        "id": "74",
+        "title": "Free op 1",
+        "source": "youtube",
+        "url": "https://youtu.be/JXkq0JWGMM8"
+      },
+      {
+        "id": "75",
+        "title": "Fullmetal Alchemist Brotherhood Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/X59yPeVk_70"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Playlist 6",
+    "songs": [
+      {
+        "id": "76",
+        "title": "Samurai Champloo Opening 1",
+        "source": "youtube",
+        "url": "https://youtu.be/Eq6EYcpWB_c"
+      },
+      {
+        "id": "77",
+        "title": "Steins;Gate Opening HD 1080p",
+        "source": "youtube",
+        "url": "https://youtu.be/dd7BILZcYAY"
+      },
+      {
+        "id": "78",
+        "title": "Dororo op1",
+        "source": "youtube",
+        "url": "https://youtu.be/FgQR2O8PGf4"
+      },
+      {
+        "id": "79",
+        "title": "Golden Kamuy – Opening Theme",
+        "source": "youtube",
+        "url": "https://youtu.be/QahFijEd3hY"
+      },
+      {
+        "id": "80",
+        "title": "Fullmetal Alchemist Brotherhood Opening 5",
+        "source": "youtube",
+        "url": "https://youtu.be/cRA5gsdCf4c"
+      },
+      {
+        "id": "81",
+        "title": "Bleach - Opening 7 | After Dark",
+        "source": "youtube",
+        "url": "https://youtu.be/OvahxFH7IGg"
+      },
+      {
+        "id": "82",
+        "title": "Gintama - Opening 11 | Wonderland",
+        "source": "youtube",
+        "url": "https://youtu.be/lelGG_1jtcg"
+      },
+      {
+        "id": "83",
+        "title": "Tokyo Ghoul:re Season 2 Op Full",
+        "source": "youtube",
+        "url": "https://youtu.be/edki8Su2c7U"
+      },
+      {
+        "id": "84",
+        "title": "Mayonaka No Orchestra",
+        "source": "youtube",
+        "url": "https://youtu.be/-VqnN_uSEgY"
+      },
+      {
+        "id": "85",
+        "title": "Bleach - Opening 13 | Ranbu no Melody",
+        "source": "youtube",
+        "url": "https://youtu.be/XXjgwpayNoM"
+      },
+      {
+        "id": "86",
+        "title": "Gintama Opening 15 | Pride Kakumei (HD)",
+        "source": "youtube",
+        "url": "https://youtu.be/0xMFEE4uMgM"
+      },
+      {
+        "id": "87",
+        "title": "Death Note OP 1",
+        "source": "youtube",
+        "url": "https://youtu.be/8QE9cmfxx4s"
+      },
+      {
+        "id": "88",
+        "title": "Death Note Ending 1 Sub Ita (Alumina)",
+        "source": "youtube",
+        "url": "https://youtu.be/SKWU3tyWnwA"
+      },
+      {
+        "id": "89",
+        "title": "Attack on Titan – Opening Theme",
+        "source": "youtube",
+        "url": "https://youtu.be/8OkpRK2_gVs"
+      },
+      {
+        "id": "90",
+        "title": "My Hero Academia - Opening 4 | Odd Future",
+        "source": "youtube",
+        "url": "https://youtu.be/iBRH9Po3gw8"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Playlist 7",
+    "songs": [
+      {
+        "id": "91",
+        "title": "OP2//Blue Exorcist - My World;",
+        "source": "youtube",
+        "url": "https://youtu.be/vZ11VI2R0MM"
+      },
+      {
+        "id": "92",
+        "title": "Gintama - Opening 17 v4 | Know Know Know",
+        "source": "youtube",
+        "url": "https://youtu.be/PCmdN-Rcqq8"
+      },
+      {
+        "id": "93",
+        "title": "The Rising of the Shield Hero - Opening (HD)",
+        "source": "youtube",
+        "url": "https://youtu.be/jZvFEtR8RH0"
+      },
+      {
+        "id": "94",
+        "title": "Rainbow: Nisha Rokubō no Shichinin OP",
+        "source": "youtube",
+        "url": "https://youtu.be/ibkhGFKhyW8"
+      },
+      {
+        "id": "95",
+        "title": "Attack on Titan / Shingeki no Kyojin Season 3 OP",
+        "source": "youtube",
+        "url": "https://youtu.be/MWSR17vEVBw"
+      },
+      {
+        "id": "96",
+        "title": "Nana Opening 2 with lyrics",
+        "source": "youtube",
+        "url": "https://youtu.be/ZJ-SpKD0Fq8"
+      },
+      {
+        "id": "97",
+        "title": "NANA OP// Anna Tsuchiya - Rose; sub esp",
+        "source": "youtube",
+        "url": "https://youtu.be/I671_pldjDU"
+      },
+      {
+        "id": "98",
+        "title": "Ghost in the Shell: Stand Alone Complex Opening",
+        "source": "youtube",
+        "url": "https://youtu.be/QxkMzn4et2U"
+      },
+      {
+        "id": "99",
+        "title": "Fate Zero Op 2 [NC]",
+        "source": "youtube",
+        "url": "https://youtu.be/O5uYQF4R-jo"
+      },
+      {
+        "id": "100",
+        "title": "Neon Genesis Evangelion (A Cruel Angel's Thesis) Anime Intro Opening",
+        "source": "youtube",
+        "url": "https://youtu.be/nU21rCWkuJw"
+      },
+      {
+        "id": "101",
+        "title": "One Piece Ending 1 Sub Español",
+        "source": "youtube",
+        "url": "https://youtu.be/QT9OawmZ_FY"
+      },
+      {
+        "id": "102",
+        "title": "I'm Standing on a Million Lives opening",
+        "source": "youtube",
+        "url": "https://youtu.be/KX2lPohQ3Gc"
+      },
+      {
+        "id": "103",
+        "title": "",
+        "source": "youtube",
+        "url": "https://youtu.be/QsbAT2B08os"
+      }
+    ]
+  }
+]
